@@ -1,0 +1,10 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    width: 100px;
+}

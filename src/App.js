@@ -4,12 +4,13 @@ import React from 'react';
 import Row from './Row';
 import Requests from './Requests';
 import Banner from './Banner';
+import Navbar from './Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar> */}
+      <Navbar/>
       <Banner/>  
       <h1 className="heading">Netflix App recreation</h1>
       <Row title= "Trending now" 
