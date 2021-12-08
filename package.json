@@ -10,6 +10,9 @@
     "movie-trailer": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-player": "^2.9.0",
+    "react-render-image": "^3.0.1",
     "react-scripts": "4.0.3",
     "react-youtube": "^7.13.1",
     "web-vitals": "^1.0.1"
