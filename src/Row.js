@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react';
 import React, {useState, useEffect} from 'react';
 import axios from "./axios";
 import "./Css/Row.css";
@@ -7,23 +8,27 @@ const base_url = "https://image.tmdb.org/t/p/original/";
 function Row({ title, fetchURL, isLargeRow }) {
     const [movies, setMovies] = useState([]);
     const [image, setImage] = useState(undefined);
-    
 
-    
+
     useEffect(() => {
         async function fetchData(){
             const request = await axios.get(fetchURL);
             setMovies(request.data.results);
+            setImage(request.data.results);
             return request;
         }
         fetchData();
     }, [fetchURL]);
 
-     
+    console.log(movies);
 
-    console.log(1 === "1");
-
-
+    function handleClick(movie){
+        if (image){
+            setImage("");
+        } else {
+            setImage(movie.poster_path)
+        }
+    }
 
     return (
         <div className = "row">
@@ -38,7 +43,7 @@ function Row({ title, fetchURL, isLargeRow }) {
                     alt={movie.name}/>
                 ))};
             </div>
-           {image && <img src={image} className="rendered-image" />}
+           {image && <img src={`${base_url}${image}`} className="rendered-image"/>}
         </div>
     )
 }
