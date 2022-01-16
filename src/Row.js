@@ -26,7 +26,7 @@ function Row({ title, fetchURL, isLargeRow }) {
         if (image){
             setImage("");
         } else {
-            setImage(movie.poster_path)
+            setImage(movie.backdrop_path)
         }
     }
 
