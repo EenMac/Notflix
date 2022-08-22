@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Notflix/static/css/main.8b57df1d.chunk.css",
+    "main.js": "/Notflix/static/js/main.233d6106.chunk.js",
+    "main.js.map": "/Notflix/static/js/main.233d6106.chunk.js.map",
+    "runtime-main.js": "/Notflix/static/js/runtime-main.301862b1.js",
+    "runtime-main.js.map": "/Notflix/static/js/runtime-main.301862b1.js.map",
+    "static/js/2.2332296c.chunk.js": "/Notflix/static/js/2.2332296c.chunk.js",
+    "static/js/2.2332296c.chunk.js.map": "/Notflix/static/js/2.2332296c.chunk.js.map",
+    "static/js/3.a346f23b.chunk.js": "/Notflix/static/js/3.a346f23b.chunk.js",
+    "static/js/3.a346f23b.chunk.js.map": "/Notflix/static/js/3.a346f23b.chunk.js.map",
+    "index.html": "/Notflix/index.html",
+    "static/css/main.8b57df1d.chunk.css.map": "/Notflix/static/css/main.8b57df1d.chunk.css.map",
+    "static/js/2.2332296c.chunk.js.LICENSE.txt": "/Notflix/static/js/2.2332296c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Notflix/static/media/logo.6ce24c58.svg",
+    "static/media/notflix-img.8891e91e.jpg": "/Notflix/static/media/notflix-img.8891e91e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.301862b1.js",
+    "static/js/2.2332296c.chunk.js",
+    "static/css/main.8b57df1d.chunk.css",
+    "static/js/main.233d6106.chunk.js"
+  ]
+}
