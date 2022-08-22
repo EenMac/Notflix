@@ -8,22 +8,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <ul>
-            <li>
-              <Link to="/">Login</Link>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <Link to="/browse">Browse</Link>
-            </li>
-          </ul>
-        </div>
-          <Routes>
-            <Route exact path="/" component={Rows}/>
-            <Route exact path="/browse" component={Login}/>
-          </Routes>
+        <Rows/>
       </Router>
     </div>
   );
